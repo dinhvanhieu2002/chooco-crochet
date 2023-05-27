@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chooco Crochet</title>
+    <link
+      rel="shortcut icon"
+      href="./assets//icons/facebook.svg"
+      type="image/x-icon"
+    />
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+
+    <!-- Embed fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" /> -->
+
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/slick/slick-theme.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header fixed">
+      <div class="main-content">
+        <div class="body">
+          <!-- Logo -->
+          <div class="logo">Chooco</div>
+
+          <!-- Nav -->
+          <nav class="nav">
+            <ul>
+              <li class="active">
+                <a href="#!">Home</a>
+              </li>
+              <li>
+                <a href="#!">Products</a>
+              </li>
+              <li>
+                <a href="#!">Workshop</a>
+              </li>
+              <li>
+                <a href="#!">About us</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Action -->
+          <div class="action">
+            <a href="#!" class="btn sign-up-btn">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-container">
+        <div class="main-content">
+          <div class="prd-detail container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                <div class="slider slider-for slick-initialized slick-slider">
+                  <div
+                    aria-live="polite"
+                    class="slick-list draggable"
+                    role="listbox"
+                  >
+                    <div class="slick-track" style="opacity: 1; width: 4000px">
+                      <div class="slick-slide" style="width: 652px">
+                        <img
+                          src="./assets/img/product4.jpg"
+                          alt=""
+                          class="main-img"
+                        />
+                      </div>
+                      <div class="slick-slide" style="width: 652px">
+                        <img
+                          src="./assets/img/product-3.jpg"
+                          alt=""
+                          class="main-img"
+                        />
+                      </div>
+                      <div class="slick-slide" style="width: 652px">
+                        <img
+                          src="./assets/img/product4.jpg"
+                          alt=""
+                          class="main-img"
+                        />
+                      </div>
+                      <div class="slick-slide" style="width: 652px">
+                        <img
+                          src="./assets/img/product-3.jpg"
+                          alt=""
+                          class="main-img"
+                        />
+                      </div>
+                      <div class="slick-slide" style="width: 652px">
+                        <img
+                          src="./assets/img/product4.jpg"
+                          alt=""
+                          class="main-img"
+                        />
+                      </div>
+                      <div class="slick-slide" style="width: 652px">
+                        <img
+                          src="./assets/img/product-3.jpg"
+                          alt=""
+                          class="main-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider slider-nav slick-initialized slick-slider">
+                  <div class="slick-list draggable">
+                    <div class="slick-slide" style="width: 160px">
+                      <img src="./assets/img/product4.jpg" alt="" />
+                    </div>
+                    <div class="slick-slide" style="width: 160px">
+                      <img src="./assets/img/product-3.jpg" alt="" />
+                    </div>
+                    <div class="slick-slide" style="width: 160px">
+                      <img src="./assets/img/product4.jpg" alt="" />
+                    </div>
+                    <div class="slick-slide" style="width: 160px">
+                      <img src="./assets/img/product-3.jpg" alt="" />
+                    </div>
+                    <div class="slick-slide" style="width: 160px">
+                      <img src="./assets/img/product4.jpg" alt="" />
+                    </div>
+                    <div class="slick-slide" style="width: 160px">
+                      <img src="./assets/img/product-3.jpg" alt="" />
+                    </div>
+                  </div>
+                  <!-- slick-arrow slick-prev -->
+                  <button
+                    class="btn-prev slick-prev slick-arrow"
+                    style="background-image: url('./assets/img/arr_left.png')"
+                  >
+                    Previous
+                  </button>
+                  <button
+                    class="btn-next slick-next slick-arrow"
+                    style="background-image: url('./assets/img/arr_right.png')"
+                  >
+                    Next
+                  </button>
+                </div>
+              </div>
+
+              <div
+                class="col-xs-12 col-sm-12 col-md-5 col-lg-5 prd-detail-right"
+              >
+                <h4 class="product-name">
+                  VINTAS FLOWER - HIGH TOP - ROYAL WHITE
+                </h4>
+                <div class="detail1">
+                  <span class="pull-left">
+                    Product: <strong>AV00174</strong>
+                  </span>
+                  <span class="pull-right"> Status: <strong>New</strong> </span>
+                </div>
+                <div class="detail1">
+                  <span class="saleprice">999$</span>
+                </div>
+                <div
+                  style="
+                    margin: 30px 0px 30px 0px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                  "
+                >
+                  <span>Quantity</span>
+                  <input style="width: 50px; margin-left: 10px" />
+                </div>
+                <div class="row">
+                  <button class="btn-addcart">Add to cart</button>
+                  <button class="btn-like"></button>
+                </div>
+                <div class="row">
+                  <button class="btn-checkout">Checkout</button>
+                </div>
+                <div id="accordion">
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a
+                          class=""
+                          data-toggle="collapse"
+                          href="#collapse1"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample"
+                        >
+                          The set of ingredients includes
+                          <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                      </h4>
+                    </div>
+                    <div
+                      class="collapse panel-collapse"
+                      id="collapse1"
+                      data-parent="#accordion"
+                    >
+                      <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high
+                        life accusamus terry richardson ad squid. Nihil anim
+                        keffiyeh helvetica, craft beer labore wes anderson cred
+                        nesciunt sapiente ea proident.
+                        <br />
+                        <br />
+                        Anim pariatur cliche reprehenderit, enim eiusmod high
+                        life accusamus terry richardson ad squid. Nihil anim
+                        keffiyeh helvetica, craft beer labore wes anderson cred
+                        nesciunt sapiente ea proident.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a
+                          class=""
+                          data-toggle="collapse"
+                          href="#collapse2"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample"
+                        >
+                          Product making steps
+                          <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                      </h4>
+                    </div>
+                    <div
+                      class="collapse panel-collapse"
+                      id="collapse2"
+                      data-parent="#accordion"
+                    >
+                      <div class="panel-body">
+                        <p>
+                          Step 1: Embroider the punch needle with 1mm wool and
+                          the smallest needle on the fabric according to the
+                          pre-printed drawing, leaving the hands and feet
+                          unembroidered.
+                        </p>
+                        <p>Step 2: Cut the fabric along the dashed line</p>
+                        <p>
+                          Step 3: Sew the finished product Step 4: Stuff and
+                          finish
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a
+                          class=""
+                          data-toggle="collapse"
+                          href="#collapse3"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample"
+                        >
+                          Notes when making products
+                          <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                      </h4>
+                    </div>
+                    <div
+                      class="collapse panel-collapse"
+                      id="collapse3"
+                      data-parent="#accordion"
+                    >
+                      <div class="panel-body">
+                        <ul>
+                          <li>
+                            -&nbsp; It is recommended to draft out the excess
+                            fabric before embroidering the product , to avoid
+                            being damaged, having to remove it many times,
+                            causing damage to the fabric. If the embroidery is
+                            wrong and needs to be removed and redone, you can
+                            gently scratch the fabric with your hand so that the
+                            fabric does not leave too large a hole.
+                          </li>
+                          <li>
+                            -&nbsp; Apply glue to the reverse side after
+                            embroidery is complete, and wait for the glue to dry
+                            completely before sewing to avoid sticking during
+                            stitching.
+                          </li>
+                          <li>
+                            -&nbsp; The product uses fabric glue, can be washed
+                            with normal water . Should be washed by hand gently
+                            and should not be washed too many times, it will
+                            cause the wool to ruffle.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="prd-detail-divider"></div>
+      <div class="main-container recommend-product">
+        <div class="main-content">
+          <div class="prd-detail container-fluid">
+            <div class="row">
+              <div class="prd-detail-title">Maybe you know</div>
+              <div class="slider slider-nav slick-initialized slick-slider">
+                <div class="slick-list draggable">
+                  <div class="slick-slide" style="width: 290px">
+                    <img src="./assets/img/product4.jpg" alt="" />
+                  </div>
+                  <div class="slick-slide" style="width: 290px">
+                    <img src="./assets/img/product-3.jpg" alt="" />
+                  </div>
+                  <div class="slick-slide" style="width: 290px">
+                    <img src="./assets/img/product4.jpg" alt="" />
+                  </div>
+                  <div class="slick-slide" style="width: 290px">
+                    <img src="./assets/img/product-3.jpg" alt="" />
+                  </div>
+                  <div class="slick-slide" style="width: 290px">
+                    <img src="./assets/img/product4.jpg" alt="" />
+                  </div>
+                  <div class="slick-slide" style="width: 290px">
+                    <img src="./assets/img/product-3.jpg" alt="" />
+                  </div>
+                </div>
+                <!-- slick-arrow slick-prev -->
+                <button
+                  class="btn-prev slick-prev slick-arrow"
+                  style="background-image: url('./assets/img/arr_left.png')"
+                >
+                  Previous
+                </button>
+                <button
+                  class="btn-next slick-next slick-arrow"
+                  style="background-image: url('./assets/img/arr_right.png')"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="main-content">
+        <div class="row">
+          <!-- Column 1 -->
+          <div class="column">
+            <div class="logo">Chooco</div>
+            <!-- <img src="./assets/img/logo-white.svg" alt="Lesson." class="logo" /> -->
+            <p class="desc">
+              Need to help for your dream Career? trust us. With Lesson, study
+              becomes a lot easier with us.
+            </p>
+            <div class="socials">
+              <a href="#!">
+                <img
+                  src="./assets/icons/twitter.svg"
+                  alt="Twitter"
+                  class="icon"
+                />
+              </a>
+              <a href="#!">
+                <img
+                  src="./assets/icons/facebook.svg"
+                  alt="Facebook"
+                  class="icon"
+                />
+              </a>
+              <a href="#!">
+                <img
+                  src="./assets/icons/linkedin.svg"
+                  alt="Linkedin"
+                  class="icon"
+                />
+              </a>
+              <a href="#!">
+                <img
+                  src="./assets/icons/instagram.svg"
+                  alt="Instagram"
+                  class="icon"
+                />
+              </a>
+            </div>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="column">
+            <h3 class="title">Company</h3>
+            <ul class="list">
+              <li>
+                <a href="#!">About Us</a>
+              </li>
+              <li>
+                <a href="#!">Features</a>
+              </li>
+              <li>
+                <a href="#!">Our Pricing</a>
+              </li>
+              <li>
+                <a href="#!">Latest News</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="column">
+            <h3 class="title">Support</h3>
+            <ul class="list">
+              <li>
+                <a href="#!">FAQ’s</a>
+              </li>
+              <li>
+                <a href="#!">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="#!">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#!">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="column">
+            <h3 class="title">Address</h3>
+            <ul class="list">
+              <li>
+                <a href="#!"> <strong>Location:</strong> Vietnam </a>
+              </li>
+              <li>
+                <a href="#!"> <strong>Email:</strong> email@gmail.com </a>
+              </li>
+              <li>
+                <a href="#!"> <strong>Phone:</strong> + 000 1234 567 890 </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright ©2023. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!-- <script type="text/javascript" src="/assets/slick/slick.min.js"></script> -->
+    <script>
+      $(document).ready(function () {
+        $(".slider-for").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: ".slider-nav",
+        });
+        $(".slider-nav").slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          asNavFor: ".slider-for",
+          dots: false,
+          arrows: true,
+          centerMode: false,
+          focusOnSelect: true,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: false,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: false,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: false,
+              },
+            },
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>
